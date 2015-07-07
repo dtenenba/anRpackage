@@ -1,7 +1,7 @@
 ---
 title: "Bioconductor style for HTML documents"
 author: "Andrzej Oles, Wolfgang Huber, Martin Morgan"
-date: "`r doc_date()`"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
 package: "`r pkg_ver('BiocStyle')`"
 abstract: >
   Instructions on enabling _Bioconductor_ style 
