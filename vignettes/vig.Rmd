@@ -2,7 +2,7 @@
 title: "Bioconductor style for HTML documents"
 author: "Andrzej Oles, Wolfgang Huber, Martin Morgan"
 date: "`r format(Sys.Date(), '%d %B %Y')`"
-package: "`r pkg_ver('BiocStyle')`"
+package: "`r paste(name, packageVersion('anRpackage'))`"
 abstract: >
   Instructions on enabling _Bioconductor_ style 
   in your _R_ markdown vignettes.
