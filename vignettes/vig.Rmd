@@ -10,8 +10,6 @@ vignette: >
   %\VignetteIndexEntry{Bioconductor style for HTML documents}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
-output: 
-  BiocStyle::html_document
 ---
 
 # Hello.
@@ -20,3 +18,6 @@ output:
 print(1:10)
 ```
 
+```{r}
+require(BiocCheck)
+```
